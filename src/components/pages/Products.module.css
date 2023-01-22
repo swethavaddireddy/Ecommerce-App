@@ -1,0 +1,11 @@
+.products{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f3f3f3;
+  }
+  
+  .products ul {
+    list-style: none;
+  }
