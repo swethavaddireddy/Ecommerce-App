@@ -27,11 +27,8 @@ function App() {
   }, [dispatch])
 
   useEffect(() => {
-    if (cart.changed) {
       dispatch(sendCartData(cart));
-    }
-  }
-    , [cart, dispatch])
+    }, [cart, dispatch])
     
   return (
     <RouterProvider router={router}></RouterProvider>
