@@ -4,20 +4,20 @@ import ProductItem from './ProductItem';
 
 const DUMMY_PRODUCTS = [{
     id: 'p1',
-    title: 'test1',
+    title: 'Book',
     description: 'This is book',
     price: 200
 
 },
 {
     id: 'p2',
-    title: 'test2',
+    title: 'Pen',
     description: 'This is pen',
     price: 100
 
 }, {
     id: 'p3',
-    title: 'test3',
+    title: 'Pencil',
     description: 'This is pencil',
     price: 50
 
